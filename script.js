@@ -43,7 +43,8 @@ button.addEventListener('click', function(){
     uservalue.value=0;
     userpercent.value=0;
     valueDisplay.value=0;
-    //resultDisplay.value = 0% of $0 is 0;
+    valueDisplay.innerHTML=0;
+    resultDisplay.innerHTML = 0;
     
   
 })
