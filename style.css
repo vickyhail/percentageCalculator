@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color:#9a8c98;
+    color: white;
+}
+
+
+#percent{
+    max-width:500px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 18px #FAC9B8;
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2F243A;
+}
+.value{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+
+}
+input{
+    border: 1px solid coral;
+    border-radius: 5px;
+    outline: none;
+    caret-color: darkcyan;
+    display: block;
+    margin-left:8rem;
+    padding: 1rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1rem;
+
+}
+.result{
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+    background-color:#444054;
+    text-align: center;
+    color: white;
+    width: 15rem;
+    margin-left: 7rem;
+    border-radius: 1rem;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    B
+  
+   
+}
+button{
+    margin-left: 25rem;
+    cursor: pointer;
+    
+}
+/* #val{
+    margin-left: 10rem;
+
+
+}
+#per{
+    margin-left: 10rem;
+
+}*/
+
+::placeholder{
+    padding-top:3rem;
+}
+
